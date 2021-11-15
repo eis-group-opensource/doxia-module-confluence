@@ -1,0 +1,15 @@
+
+A paragraph with *_bold italic_* _*italic bold*_ *{{bold monospaced}}*
+
+A paragraph with *bold _italic_* _italic *bold*_ testcase3 *bold {{monospaced ${with.escaped.variable}}}* testcase4 and {{pseudo-escaped\}} path
+
+A programmatic_identifier_not_italicized
+
+A *bold programmatic_identifier_with_underscores*
+
+A _leading_underscore_is_a_problem (but {{_not_in_monospace}}).
+
+_italic_programmatic_identifier_
+(also checks handling of line-begin and line-end)
+
+identifier __with__some__double__underscores__ \__and__escaped__
